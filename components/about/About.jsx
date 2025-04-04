@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import ab from '../../asset/image/ab.png'
+
+
+
 const About = () => {
   return (
     <div className="flex gap-2 flex-row-reverse md:py-20 max-container max-md:flex-col">
