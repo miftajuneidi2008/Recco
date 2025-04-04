@@ -17,7 +17,7 @@ const Gallery = () => {
     setData(newData);
   };
   return (
-    <div className="max-container mt-12  min-h-screen">
+    <div className="max-container mt-12  min-h-screen my-2">
       <div className="text-center space-y-4">
         <h2 className="text-3xl font-bold">Food Gallery</h2>
         <p className="text-gray-600">
@@ -25,7 +25,7 @@ const Gallery = () => {
         </p>
 
         <Button menu={menu} filterData={filterData} allMenu={allMenu} />
-        <div className="grid gap-2 max-md:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1000px] mx-auto ">
+        <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1000px] mx-auto ">
           {data.map((images, index) => (
             <div className="relative h-64 " key={index}>
               <Image

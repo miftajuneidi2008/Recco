@@ -23,7 +23,7 @@ export const navLink = [
     {name:'Menu',id:'#menu'},
     {name:'Gallery',id:'#gallery'},
     {name:'Reserve',id:'#reserve'},
-    {name:'Review',id:'#review'},
+
 ]
 
 export const menuList=[

@@ -24,10 +24,6 @@ export default function Home() {
    <section id="gallery">
     <Gallery />
    </section>
-   <section id="review" className="bg-[#eef2ff]">
-    <CustomerReviews />
-   </section>
-
   </main>
   );
 }
